@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1718181841.34438 "resume-1.xdv" "resume-1.pdf" "resume-1" 1718181842.08202 0
-  "resume-1.xdv" 1718181840 40104 707c58e5752f3bb53729164db57cd3e8 "xelatex"
+["xdvipdfmx"] 1718182506.95478 "resume-1.xdv" "resume-1.pdf" "resume-1" 1718182507.61024 0
+  "resume-1.xdv" 1718182506 40452 fc99a68b8616aa4fc115087796d00980 "xelatex"
   (generated)
   "resume-1.pdf"
   (rewritten before read)
-["xelatex"] 1718181836.91089 "c:/Users/khand/Desktop/Resume/resume-1.tex" "resume-1.xdv" "resume-1" 1718181842.0642 0
+["xelatex"] 1718182502.6863 "c:/Users/khand/Desktop/Resume/resume-1.tex" "resume-1.xdv" "resume-1" 1718182507.59552 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136752454 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cfr-lm/clmr2j8t12.tfm" 1274885272 12760 1bea3f70d37912f83f6e04fadd25c5c0 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -206,10 +206,10 @@
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/khand/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1716649521 37556100 04350195d8a7689c1ae2f581cdcdec19 ""
-  "c:/Users/khand/Desktop/Resume/resume-1.tex" 1718181808 9591 81cc9e6f5051c12f615461d77d5cc7b3 ""
-  "resume-1.aux" 1718181840 733 69dd737ce931673a8d71edf3eb6701e1 "xelatex"
-  "resume-1.out" 1718181840 546 5154954dcb424808c8534d0195d094b7 "xelatex"
-  "resume-1.tex" 1718181808 9591 81cc9e6f5051c12f615461d77d5cc7b3 ""
+  "c:/Users/khand/Desktop/Resume/resume-1.tex" 1718182490 9568 3589e9efe603b02f0a21c80c00737ea9 ""
+  "resume-1.aux" 1718182506 733 69dd737ce931673a8d71edf3eb6701e1 "xelatex"
+  "resume-1.out" 1718182506 546 5154954dcb424808c8534d0195d094b7 "xelatex"
+  "resume-1.tex" 1718182490 9568 3589e9efe603b02f0a21c80c00737ea9 ""
   (generated)
   "resume-1.aux"
   "resume-1.log"

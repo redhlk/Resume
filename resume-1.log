@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.25)  12 JUN 2024 14:13
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.25)  12 JUN 2024 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1002,12 +1002,12 @@ Package rerunfilecheck Info: File `resume-1.out' has not changed.
 (rerunfilecheck)             Checksum: 5154954DCB424808C8534D0195D094B7;546.
  ) 
 Here is how much of TeX's memory you used:
- 33033 strings out of 409500
- 677647 string characters out of 5775039
- 1949406 words of memory out of 5000000
+ 33034 strings out of 409500
+ 677653 string characters out of 5775039
+ 1950406 words of memory out of 5000000
  54718 multiletter control sequences out of 15000+600000
  569302 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  91i,12n,99p,468b,395s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume-1.xdv (1 page, 40104 bytes).
+Output written on resume-1.xdv (1 page, 40452 bytes).
