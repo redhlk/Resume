@@ -1,0 +1,59 @@
+{{
+    "latex-workshop.latex.recipes": [
+      {
+        "name": "latexmk 🔃",
+        "tools": [
+          "latexmk"
+        ]
+      },
+      {
+        "name": "xelatex",
+        "tools": [
+          "xelatex"
+        ]
+      },
+      {
+        "name": "lualatex",
+        "tools": [
+          "lualatex"
+        ]
+      }
+    ],
+    "latex-workshop.latex.tools": [
+      {
+        "name": "latexmk",
+        "command": "latexmk",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "-pdf",
+          "%DOC%"
+        ]
+      },
+      {
+        "name": "xelatex",
+        "command": "xelatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ]
+      },
+      {
+        "name": "lualatex",
+        "command": "lualatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ]
+      }
+    ],
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.outDir": "%DOCFILE%/out"
+  }
+  
+}
