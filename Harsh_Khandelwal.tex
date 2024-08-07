@@ -1,0 +1,248 @@
+%-------------------------
+% Resume in Latex
+% Author
+% License : MIT
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,12pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\setmainfont{Arial}
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1cm, top=0.5cm, right=1cm, bottom=0.5cm}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+\usepackage[most]{tcolorbox}
+\tcbset{
+	frame code={}
+	center title,
+	left=0pt,
+	right=0pt,
+	top=0pt,
+	bottom=0pt,
+	colback=gray!20,
+	colframe=white,
+	width=\dimexpr\textwidth\relax,
+	enlarge left by=-2mm,
+	boxsep=4pt,
+	arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright
+}{}{0em}{}[\color{black}\titlerule \vspace{-10pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1.0mm}\item[]
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-1.0mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item[]
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\bullet$}
+% \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{justify}\begin{itemize}[leftmargin=*,itemsep=0.5mm,noitemsep,labelsep=1.2mm, rightmargin=2ex]\small}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0.8mm]\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%
+%%%%%% DEFINE ELEMENTS HERE %%%%%%%
+\newcommand{\name}{Harsh Khandelwal} % Your Name
+\newcommand{\phone}{9664491854} % Your Phone Number
+\newcommand{\emaila}{harsh32.hk@gmail.com} %Email 1
+
+\begin{document}
+%\fontfamily{phv}\selectfont
+%----------HEADING-----------------
+
+\parbox{\dimexpr\linewidth-0.5cm\relax}{
+\begin{tabularx}{\linewidth}{L r} \\
+  \textbf{\Large \name}\\
+  {Software Engineer} & \raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila} \\
+  \href{https://www.linkedin.com/in/harsh-khandelwal-094866201/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ LinkedIn - Harsh Khandelwal} &  {\raisebox{0.0\height}{\footnotesize \faPhone}\ +91-\phone} \\
+  \href{https://github.com/redhlk}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {GitHub - \name}}
+  & {\raisebox{0.0\height}{\footnotesize}\ Jaipur, Rajasthan, India}\\
+\end{tabularx}
+}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{\textbf{Professional Summary}}
+\begin{justify}
+ Software Engineer with 2+ years of experience in developing and maintaining complex systems and applications. Proficient in Java, Python, and C++ with a focus on backend development, data structures, and algorithms. Experienced in working with cross-functional teams to deliver software solutions. Demonstrated success in improving system efficiency, reducing bugs, debugging and enhancing user experience. Knowledgeable in Agile methodologies and pledged to continuous learning.\end{justify}
+%-----------EDUCATION-----------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology, Warangal (NIT Warangal)}{}
+      {Master of Science - Mathematics and Scientific Computing}{Aug. 2020 -  Jun. 2022}
+    \resumeSubheading
+      {The ICFAI University, Jaipur}{}
+      {Bachelor of Science - Mathematics}{Aug. 2017 - Jun. 2020}
+  \resumeSubHeadingListEnd
+\vspace{-13pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+    \item \textbf{Languages}{: Java, Python, C++, C     }
+    \item \textbf{Frameworks}{: Dropwizard, Express.js, React.js, Node.js          }
+    \item \textbf{Tools \& Technologies}{: SQL, Git, Terraform, AWS, Oracle Cloud          }
+    \item \textbf{Areas of Expertise}{: Backend Development, Data Structures, Algorithms, Object-Oriented Programming (OOP), Agile Methodologies                   }
+\resumeHeadingSkillEnd
+\vspace{4pt}
+
+%-----------EXPERIENCE-----------
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Oracle}{India}
+      {MTS}{Jul. 2022 - Present}
+      \resumeItemListStart
+        \item {Collaborated with a global team of 30+ members to develop the Operating System Management Service (OSMS).}
+        \item {Developed a Python-based CLI tool for OSMS v1 to v2 migration using Oracle Cloud Infrastructure and Python SDK enabling over 1000 companies to reduce there migration time up to 90\%.}
+        \item {Improved existing system efficiency by 20\% through refactoring and optimization of key processes.}
+        \item {Facilitated in code reviews and provided constructive feedback, leading to a 15\% reduction in bugs.}
+        \item {Improved cleanup processes for OSMS, reducing inactive users by approximately 50\% in one region and savings substantial resource.}
+      \resumeItemListEnd
+
+    % \resumeSubheading
+    % \item {Collaborated with a global team of 30+ members to develop the Operating system management service (OSMS).}
+    % \item {Developed a Python-based CLI tool for OSMS v1 to v2 migration, including instance creation script and policy-checker for a user , enabling over 1,000 companies to efficiently upgrade and manage their systems.}
+    % \item {Reduced up to 20\% on-call bugs by developing the Rest Apis in Modules service, hence making the Spacewalk Microservice aware of the upgradeable module streams.}
+    % \item {Completed over 80 days of On-call shifts, included Migrated database connection pools from c3p0 to HikariCP for multiple services,designed interface based mocks for external Api calls, standardized service health metrics, created Terraform alarms for high-traffic scenarios, and developed business KPIs to track customer activity.}
+    % \item {Improved cleanup processes for OSMS, reducing inactive users by approximately 50\% in one region and savings substantial resource.}
+    %   {JP Morgan Chase \& Co.}{India}
+    %   {Software Engineer Intern}{Feb. 2022 - Jun. 2022}
+    %   \resumeItemListStart
+    %     \item {Worked on asset management applications and performed REST API integrations using Java and Spring Boot.}
+    %     \item {Conducted rigorous testing and debugging to ensure high performance and reliability of applications.}
+    %     \item {Collaborated with senior developers to implement new features and improve existing functionalities.}
+    %   \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-13pt}
+
+%-----------PROJECTS-----------
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+    \resumeProject
+      {Crypto CLI Tool}
+    {}
+      {} %Event Dates
+
+      \resumeItemListStart
+      \item {Designed and implemented a command-line interface using Python and Typer for a user-friendly experience.}
+    \item {Integrated features such as encryption and decryption using Caesar Cipher, RSA, and Vigenere Cipher.}
+    \resumeItemListEnd
+    \vspace{-2mm}
+    
+      
+  \resumeSubHeadingListEnd
+\vspace{-5.5mm}
+
+
+%-----------EXTRA-CURRICULAR ACTIVITIES-----------
+\section{\textbf{Extra-Curricular And Achievement}}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+  {Volunteered}{The ICFAI University, Jaipur}
+  {}{Jun. 2020 - Jul. 2020}
+
+      \resumeItemListStart
+        % \item {Taught basic computer skills and mathematics to underprivileged children.}
+        \item {Designed and executed 10 innovative teaching modules focused on real-world applications of subject matter; increased student comprehension rates by 25\% as evidenced by pre- and post-module assessments.}
+      \resumeItemListEnd
+
+
+      \resumeSubheading
+      {Achievement}{}
+      {}{}
+      \resumeItemListStart
+        \item {Achieved gold medal distinction by ranking first among 50+ students in B.Sc. Mathematics, demonstrating exceptional understanding and application of complex mathematical concepts and theories.}
+        \item {Earned a top 1\% rank in the TIFR Mathematics Entrance Exam, competing against 5,000 candidates; this achievement reflects a strong foundation in mathematics and readiness for advanced studies in the field.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-13pt}
+
+\end{document}

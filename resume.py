@@ -1,0 +1,1 @@
+<i class='fas fa-lock'></i>   2 more strong resume bullet points were generated. But they're for Pro users only. <a href='#buypromodal' rel='modal:open'>Unlock them instantly</a>.
